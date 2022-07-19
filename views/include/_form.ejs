@@ -1,0 +1,115 @@
+<!-- form handling -->
+<form action="/api/users" method="POST" id="add_user">
+  <div class="new_user">
+    <div class="form-group">
+      <label for="emp_id" class="text-light">Employee_ID</label>
+      <input type="text" name="emp_id" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="fname" class="text-light">First_Name</label>
+      <input type="hidden" name="id" value="" />
+      <input type="text" name="fname" value="" placeholder="Mark" />
+    </div>
+    <div class="form-group">
+      <label for="lname" class="text-light">Last_Name</label>
+      <input type="hidden" name="id" value="" />
+      <input type="text" name="lname" value="" placeholder="Stoinis" />
+    </div>
+
+    <div class="form-group">
+      <label for="gender" class="text-light">Gender</label>
+      <div class="radio inline">
+        <input type="radio" id="radio-2" name="gender" value="Male" />
+        <label for="radio-2" class="radio-label">Male</label>
+      </div>
+      <div class="radio inline">
+        <input type="radio" id="radio-3" name="gender" value="Female" />
+        <label for="radio-3" class="radio-label">Female</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="dob" class="text-light">Date_Of_Birth</label>
+      <input type="text" name="dob" value="" placeholder="00/00/00" />
+    </div>
+    <div class="form-group">
+      <label for="Email" class="text-light">Email</label>
+      <input
+        type="text"
+        name="email"
+        value=""
+        placeholder="example@gmail.com"
+      />
+    </div>
+    <div class="form-group">
+      <label for="aadhaar_id" class="text-light">Aadhaar_ID</label>
+      <input type="text" name="aadhaar_id" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="voter_id" class="text-light">Voter_ID</label>
+      <input type="text" name="voter_id" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="account_no" class="text-light">Account_No</label>
+      <input type="text" name="account_no" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="ifsc_code" class="text-light">IFSC_Code</label>
+      <input type="text" name="ifsc_code" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="doj" class="text-light">Date_Of_Joining</label>
+      <input type="text" name="doj" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="designation" class="text-light">Designation</label>
+      <input type="text" name="designation" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="joining_loc" class="text-light">Joining_Location</label>
+      <input
+        type="text"
+        name="joining_loc"
+        value=""
+        placeholder=""
+      />
+    </div>
+    <div class="form-group">
+      <label for="doex" class="text-light">Date_Of_Exit</label>
+      <input type="text" name="doex" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="lid" class="text-light">Last_Increament_Date</label>
+      <input type="text" name="lid" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="ldes" class="text-light">Last_Designation</label>
+      <input type="text" name="ldes" value="" placeholder="" />
+    </div>
+    <div class="form-group">
+      <label for="ff_stat" class="text-light">F&F_Status</label>
+      <div class="radio inline">
+        <input type="radio" id="radio-4" name="ff_stat" value="Yes" />
+        <label for="radio-4" class="radio-label">Yes</label>
+      </div>
+      <div class="radio inline">
+        <input type="radio" id="radio-5" name="ff_stat" value="No" />
+        <label for="radio-5" class="radio-label">No</label>
+      </div>
+    </div>
+    <div class="form-group">
+      <label for="status" class="text-light">Status</label>
+      <div class="radio inline">
+        <input type="radio" id="radio-6" name="status" value="Active" />
+        <label for="radio-6" class="radio-label">Active</label>
+      </div>
+      <div class="radio inline">
+        <input type="radio" id="radio-7" name="status" value="Inactive" />
+        <label for="radio-7" class="radio-label">Inactive</label>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" class="btn text-dark update">Save</button>
+    </div>
+  </div>
+</form>
